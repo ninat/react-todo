@@ -1,0 +1,31 @@
+.root {
+  height: 30px;
+  text-align: center;
+  display: flex;
+}
+.control {
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.control:first-child {
+  margin-left: 0;
+}
+.input {
+  border: 1px solid #e2c178;
+  padding: 0 10px;
+  flex: 1;
+  outline: none;
+}
+.addBtn {
+  padding: 0 15px;
+  background: #59a3c8;
+  color: #fff;
+  border: none;
+}
+.addBtn:hover {
+  background: #066289;
+}
+.clearBtn {
+  padding: 0 10px;
+}

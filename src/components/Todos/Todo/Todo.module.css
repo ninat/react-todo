@@ -1,0 +1,33 @@
+.item {
+  padding: 5px 0;
+  color: #066289;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaebed;
+}
+.item:first-child {
+  border-top: 1px solid #eaebed;
+}
+.item:hover {
+  background: #f0f9ff;
+}
+.text {
+  display: flex;
+  flex: 1;
+  word-break: break-word;
+}
+.label {
+  width: 100%;
+}
+.done {
+  text-decoration: line-through;
+}
+.removeBtn {
+  border: none;
+  outline: none;
+  background: none;
+  color: #666;
+}
+.removeBtn:hover {
+  color: #5ca1c6;
+}

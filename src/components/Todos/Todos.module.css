@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 50vh;
+  overflow: auto;
+}
+.note {
+  margin: 20px 0 0 0;
+  color: #666;
+  font-size: 0.8em;
+}
